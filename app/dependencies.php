@@ -44,5 +44,7 @@ return function (ContainerBuilder $containerBuilder) {
 
     $container['SaveTaskController'] = DI\Factory('App\Factories\SaveTaskControllerFactory');
 
+    $container['DeleteTaskController'] = DI\Factory('App\Factories\DeleteTaskControllerFactory');
+
     $containerBuilder->addDefinitions($container);
 };

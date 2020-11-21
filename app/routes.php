@@ -20,6 +20,6 @@ return function (App $app) {
     $app->post('/saveTask', 'SaveTaskController');
 
     //need to create controller & factory for this route
-//    $app->get('/deleteTask/{id}', 'DeleteTaskController');
+    $app->get('/deleteTask/{id}', 'DeleteTaskController');
 
 };
