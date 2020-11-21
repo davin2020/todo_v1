@@ -30,7 +30,7 @@
     ?>
 
 <br><br>
-<h2><a href="/completedTasks">View Completed Tasks</a></h2>
+<h3><a href="/completedTasks">View Completed Tasks</a></h3>
 
 </body>
 </html>
