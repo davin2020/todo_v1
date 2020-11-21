@@ -25,7 +25,7 @@ class HomepageController
         //get & show all tasks
         //invoke only ever does 1 thing, each page has own controler thus own invoke method - invoke is where the stuff for the actual page gets done eg display uncomplete tasks etc
         $tasks = $this->taskModel->getUncompletedTasks();
-        var_dump($tasks);
+//        var_dump($tasks);
         $assocArrayArgs = [];
         $assocArrayArgs['tasks'] = $tasks; //add tasks to assoc array, for php renderer to display stuff - can have 2 diff keys if u needed to display more stuff here
         //last param $args is the data to return to the index page
